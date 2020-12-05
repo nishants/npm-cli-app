@@ -1,0 +1,27 @@
+{
+  "name": "npm-cli-app",
+  "version": "1.0.0",
+  "description": "Creating and publishing cli apps with npm",
+  "main": "index.js",
+  "bin": {
+    "npm-cli-app": "bin/npm-cli-app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishants/npm-cli-app.git"
+  },
+  "keywords": [
+    "cli",
+    "npm",
+    "publish"
+  ],
+  "author": "nishant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nishants/npm-cli-app/issues"
+  },
+  "homepage": "https://github.com/nishants/npm-cli-app#readme"
+}
