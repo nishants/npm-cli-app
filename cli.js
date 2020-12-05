@@ -1,5 +1,7 @@
+const app = require('./src/app');
+
 module.exports = {  
 	run : (args) => {    
-		console.log("running command with ", args);  
+		app.run(args.slice(2));
 	}
 };

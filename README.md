@@ -74,4 +74,27 @@
   # ]
   ```
 
-- 
+- Create file `src/app.js`
+
+  ```javascript
+  module.exports = {
+  	run : (parameters) => {
+  		console.log("running app with : ", parameters)
+  	}
+  };
+  ```
+
+- Update `cli.js` to run app and pass only user provided data
+
+  ```javascript
+  const app = require('./src/app');
+  
+  module.exports = {  
+  	run : (args) => {    
+  		app.run(args.slice(2));
+  	}
+  };
+  ```
+
+  
+
