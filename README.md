@@ -96,5 +96,35 @@
   };
   ```
 
+- Now run out comamnd again 
+
+  ```bash
+  npm-cli-app hello
+  
+  # running app with :  [ 'hello' ]
+  ```
+
+- publish to npm 
+
+  ```bash
+  npm login 
+  # Enter you username/password
+  
+  npm publish
+  ```
+
   
 
+- Now on any other machine check the pubslihe package by running 
+
+  ```
+  npx npm-cli-app hello
+  ```
+
+- If you do not have another machin to test, use docker to test instead : 
+
+  ```
+  docker run node:14 npx npm-cli-app hello
+  ```
+
+  
