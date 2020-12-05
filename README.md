@@ -47,7 +47,7 @@
 
 - Update pakcage.json to include the bin file :
 
-  ```yaml
+  ```json
   "bin": {
   	"npm-cli-app": "bin/npm-cli-app.js"
   },
